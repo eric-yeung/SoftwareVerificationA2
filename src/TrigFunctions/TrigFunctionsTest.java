@@ -55,47 +55,47 @@ public class TrigFunctionsTest
         assertEquals(expAns4, test.toDegrees(radAngle4));
     }
 
-//    @Test
-//    public void sinRadiansTest()
-//    {
-//        double expAns1 = 0.990657964437774;
-//        double expAns2 = 0.8390815204405422;
-//        double expAns3 = -0.6885642684590729;
-//        double expAns4 = -0.9076224856430537;
-//
-//        assertEquals(expAns1, test.sinRadians(radAngle1));
-//        assertEquals(expAns2, test.sinRadians(radAngle2));
-//        assertEquals(expAns3, test.sinRadians(radAngle3));
-//        assertEquals(expAns4, test.sinRadians(radAngle4));
-//    }
-//
-//    @Test
-//    public void cosRadiansTest()
-//    {
-//        double expAns1 = 0.13637007551524744;
-//        double expAns2 = -0.5440057003884181;
-//        double expAns3 = -0.7251753223886787;
-//        double expAns4 = 0.4197873551633533;
-//
-//        assertEquals(expAns1, test.cosRadians(radAngle1));
-//        assertEquals(expAns2, test.cosRadians(radAngle2));
-//        assertEquals(expAns3, test.cosRadians(radAngle3));
-//        assertEquals(expAns4, test.cosRadians(radAngle4));
-//    }
-//
-//    @Test
-//    public void tanRadiansTest()
-//    {
-//        double expAns1 = 7.264482040467956;
-//        double expAns2 = -1.5424131031006494;
-//        double expAns3 = 0.9495142032563775;
-//        double expAns4 = -2.1621005837345133;
-//
-//        assertEquals(expAns1, test.tanRadians(radAngle1));
-//        assertEquals(expAns2, test.tanRadians(radAngle2));
-//        assertEquals(expAns3, test.tanRadians(radAngle3));
-//        assertEquals(expAns4, test.tanRadians(radAngle4));
-//    }
+    @Test
+    public void sinRadiansTest()
+    {
+        double expAns1 = 0.990657964437774;
+        double expAns2 = 0.8390815204405422;
+        double expAns3 = -0.6885642684590729;
+        double expAns4 = -0.9076224856430537;
+
+        assertEquals(expAns1, test.sinRadians(radAngle1));
+        assertEquals(expAns2, test.sinRadians(radAngle2));
+        assertEquals(expAns3, test.sinRadians(radAngle3));
+        assertEquals(expAns4, test.sinRadians(radAngle4));
+    }
+
+    @Test
+    public void cosRadiansTest()
+    {
+        double expAns1 = 0.13637007551524744;
+        double expAns2 = -0.5440057003884181;
+        double expAns3 = -0.7251753223886787;
+        double expAns4 = 0.4197873551633533;
+
+        assertEquals(expAns1, test.cosRadians(radAngle1));
+        assertEquals(expAns2, test.cosRadians(radAngle2));
+        assertEquals(expAns3, test.cosRadians(radAngle3));
+        assertEquals(expAns4, test.cosRadians(radAngle4));
+    }
+
+    @Test
+    public void tanRadiansTest()
+    {
+        double expAns1 = 7.264482040467956;
+        double expAns2 = -1.5424131031006494;
+        double expAns3 = 0.9495142032563775;
+        double expAns4 = -2.1621005837345133;
+
+        assertEquals(expAns1, test.tanRadians(radAngle1));
+        assertEquals(expAns2, test.tanRadians(radAngle2));
+        assertEquals(expAns3, test.tanRadians(radAngle3));
+        assertEquals(expAns4, test.tanRadians(radAngle4));
+    }
 //
 //    @Test
 //    public void sinDegTest()
