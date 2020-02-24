@@ -67,4 +67,21 @@ public class TrigFunctions
         return tanValue;
     }
 
+    public double sinDeg(double deg)
+    {
+        double rad = toRadians(deg); //easier to just convert degrees to radians
+        return sinRadians(rad);
+    }
+
+    public double cosDeg(double deg)
+    {
+        double rad = toRadians(deg); //easier to just convert degrees to radians
+        return cosRadians(rad);
+    }
+
+    public double tanDeg(double deg)
+    {
+        double rad = toRadians(deg); //easier to just convert degrees to radians
+        return tanRadians(rad);
+    }
 }
